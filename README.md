@@ -1,7 +1,7 @@
 # Homelab
 This repo contains all of the configuration and documentation of my homelab.
 
-Most of the homelab work is documented on my Hashnode Blog.
+Most of the homelab work is documented on my [Blog](https://trinayakantevari.hashnode.dev/).
 
 The purpose of my homelab is to learn and to have fun. My homelab is the place where I can try out and learn new things. I self host some applications and that makes me feel responsible for the entire process of deploying and maintaining an application. It forces me to think about security, scalability, backup strategies and the ease of deployment and maintenance.
 ## Cluster Provisioning
