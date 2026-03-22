@@ -4,3 +4,5 @@ namespace: mealie
 resources:
   - deployment.yaml
   - namespace.yaml
+  - service.yaml
+  - ingress.yaml
