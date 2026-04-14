@@ -23,6 +23,11 @@ spec:
         volumeMounts:
         - name: data
           mountPath: /app/data
+        envFrom:
+        - configMapRef:
+            name: mealie-configmap
+        - secretRef:
+            name: mealie-container-env
       volumes:
       - name: data
         persistentVolumeClaim:
