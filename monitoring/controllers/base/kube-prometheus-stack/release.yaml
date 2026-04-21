@@ -17,8 +17,10 @@ spec:
   releaseName: prometheus-stack
   install:
     crds: Create
+    timeout: 10m
   upgrade:
     crds: CreateReplace
+    timeout: 10m
   driftDetection:
     mode: enabled
     ignore:
